@@ -1,0 +1,27 @@
+Enunciado: Imagina-se que você está desenvolvendo um software de controle de estoque para uma mercearia. Este software deve ter o seguinte menu e opções:
+⦁	Cadastrar Produto
+⦁	Consultar Produto(s)
+⦁	Consultar Todas as Produto
+⦁	Consultar Produto por Código
+⦁	Consultar Produto(s) por Fabricante
+⦁	Retornar 
+⦁	Remover Produto
+⦁	Sair
+
+Elabore um programa em Python que:
+⦁	Deve-se codificar uma função cadastrarProduto (código) (EXIGÊNCIA 1);
+⦁	Essa função recebe como parâmetro um código exclusivo para cada produto cadastrado (DICA: utilize um contador como parâmetro) 
+⦁	Dentro da função perguntar o nome do produto;
+⦁	Dentro da função perguntar o fabricante do produto;
+⦁	Dentro da função perguntar o valor do produto
+⦁	Cada produto cadastrado deve ter os seus dados armazenados num DICIONÁRIO (DICA: Conferir material escrito da p. 22 até p24  da AULA 06)
+
+⦁	Deve-se codificar uma função consultarProduto(EXIGÊNCIA 2);
+⦁	Dentro da função ter um menu com as seguintes opções:
+⦁	Consultar Todos os Produtos
+⦁	Consultar Produtos por Código
+⦁	Consultar Produtos por Fabricante
+⦁	Retornar
+
+⦁	Deve-se codificar uma função chamada removerProduto (EXIGÊNCIA 3);
+⦁	Dentro da função perguntar qual o código do produto que se deseja remover do cadastro (da lista de dicionário)
